@@ -77,7 +77,7 @@
 		</div>
 		<div id="htmlcss" class="lang-panel">
 			<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML/CSS/JS/OTHERS</a></h2>
-			<h3 class="lang-desc">I first started programming in  <span>highschool</span>, and got my start with web develpoment
+			<h3 class="lang-desc">I first started programming in  <span>highschool</span>, and got my start with web development
 				in <span>college</span> through various classes and research projects. I've worked with <i>various</i>
 				stacks and frameworks such as <span>React</span> and <span>Bootstrap</span> becoming more proficient with each project. 
 				<span>Click around below to learn about what I have worked on.</span>
@@ -153,6 +153,22 @@
 	<script type="text/javascript" src="js/langs.js"></script>
 	<script type="text/javascript" src="js/seen.js"></script>
 	<script type="text/javascript" src="js/globe.js"></script>
+	<script>
+        function updateText() {
+            const textElement = document.getElementById('intro');
+            
+            if (window.innerWidth <= 600) {
+                textElement.textContent = "{BC}";
+            } else {
+                textElement.textContent = "{BRAXTON CONLEY}";
+            }
+        }
+
+        // Call the function immediately when the script is loaded
+        window.onresize = updateText;
+    </script>
+	<!DOCTYPE html>
+
 </body>
 
 </html>

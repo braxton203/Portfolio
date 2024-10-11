@@ -113,6 +113,12 @@ a.d {
 	margin: 10px auto;
 }
 
+@media (max-height: 700px) {
+    .lang-desc {
+        width: 70%;
+    }
+}
+
 #datascience>.lang-desc>span {
 	color: #90c53f;
 }
@@ -184,6 +190,18 @@ canvas {
 	background-position: center;
 	cursor: pointer;
 	transition: background-size 0.2s ease-in;
+}
+
+@media (max-height: 700px) {
+    .proj {
+        transform: scale(0.85); /* Scale down by 25% */
+		/* Allow height to adjust based on content */
+    }
+
+    /* Adjust margins to keep spacing consistent */
+    .proj {
+        margin: 7.5px; /* Adjust margin if necessary */
+    }
 }
 
 .proj::before {
