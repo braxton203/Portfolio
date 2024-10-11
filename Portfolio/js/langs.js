@@ -9,7 +9,7 @@ const details = document.querySelector('#details');
 const langHint = document.querySelector('#langhint');
 const modal = document.querySelector('#modal');
 
-if (!window.localStorage.hideClickToLang) {
+if (!window.hideClickToLang) {
 	langHint.langTimeout = setTimeout(() => {
 		langHint.innerText = '(click to view details)';
 		langHint.style.left = '50%';
@@ -23,7 +23,7 @@ for (let button of lang_buttons) {
 		going = true;
 		clearTimeout(langHint.langTimeout);
 		langHint.style.opacity = '0';
-		window.localStorage.hideClickToLang = true;
+		window.hideClickToLang = true;
 		clearTimeout(langHint.exitTimeout);
 
 		if (button.className.includes('active')) {
@@ -39,7 +39,7 @@ for (let button of lang_buttons) {
 			}, 500);
 			langHint.style.opacity = '0';
 			clearTimeout(langHint.exitTimeout);
-			window.localStorage.hideClickToExit = true;
+			window.hideClickToExit = true;
 			return;
 		}
 
@@ -85,7 +85,7 @@ for (let button of lang_buttons) {
 		}, 500);
 
 		// exit thingy timeout
-		if (!window.localStorage.hideClickToExit) {
+		if (!window.hideClickToExit) {
 			langHint.exitTimeout = setTimeout(() => {
 				langHint.innerText = '(click again to exit)';
 				langHint.style.opacity = '0.5';

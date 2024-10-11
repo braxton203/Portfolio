@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Braxton Conley</title>
+	<link rel="icon" type="image/x-icon" href="img/logo.png">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 	<script src="js/trianglify.min.js"></script>
@@ -35,13 +36,13 @@
 	<h1 id="intro">{ }</h1>
 	<div id="main">
 		<h2>I'm a <span id="age"></span> year-old developer</h2>
-		<h2>who uses
-			<span class="lang-button" style="color:#90c53f;" data-panel="nodejs">Node.JS<span class="underline"
+		<h2>with experience in 
+			<span class="lang-button" style="color:#90c53f;" data-panel="datascience">Data Science<span class="underline"
 					style="background-color:#90c53f;"></span></span>,
+			<span class="lang-button" style="color: #f16529;" data-panel="htmlcss">Web Development<span class="underline"
+					style="background-color:#f16529;"></span></span>,
 			<span class="lang-button" style="color: #5ec9f8;" data-panel="flutter">Flutter<span class="underline"
-					style="background-color:#5ec9f8;"></span></span>,
-			<span class="lang-button" style="color: #f16529;" data-panel="htmlcss">HTML/CSS/JS<span class="underline"
-					style="background-color:#f16529;"></span></span>, and
+				style="background-color:#5ec9f8;"></span></span>, and
 			<span class="lang-button" style="color: #ffdd48;" data-panel="others">others<span class="underline"
 					style="background-color:#ffdd48;"></span></span>.
 		</h2>
@@ -53,74 +54,77 @@
 			<path id="rectleft" />
 			<path id="rectright" />
 		</svg>
-		<div id="nodejs" class="lang-panel">
-			<h2><a href="https://nodejs.org/en/" target="_blank">Node.JS</a></h2>
-			<h3 class="lang-desc">Node is my language of choice for both <span>quick scripts</span> and for <span>web
-					servers</span> using <a href="https://expressjs.com/" target="_blank">Express</a>. I've been using
-				it for about <span>2 years</span> now, and I'd call myself <span>proficient</span>.</h3>
-			<div class="projects node" data-cat="nodejs">
-				<div data-proj="dickens" class="proj" style="background-image: url(img/dickens.png)">
-					<h3>Dickens Carolers</h3>
+		<div id="datascience" class="lang-panel">
+			<h2><a href="https://www.oracle.com/what-is-data-science/" target="_blank">Data Science</a></h2>
+			<h3 class="lang-desc">In my final year of <span>undergraduate</span> studies I was accepted into 
+				<a href="https://datamine.purdue.edu/" target="_blank">Purdue's Data Mine</a> program. Within the program I 
+				gained real world experience as a <span>data scientist</span> and <span>developer</span> working with 
+				<a href="https://www.evonik.com/en/company.html#:~:text=Evonik%20is%20one%20of%20the,precisely%20what%20make%20the%20difference." target="_blank">Evonik Industries</a>
+				as well as working on many projects in <span>R</span> and <span>Python</span> to sharpen my 
+				<span>data science</span> skills. <span>Click around below to learn about what I have worked on.</span>
+				</h3>
+			<div class="projects datascience" data-cat="datascience">
+				<div data-proj="r_projects" class="proj" style="background-image: url(img/purduelogo.png)">
+					<h3>R Data Projects</h3>
 				</div>
-				<div data-proj="growth_tracker" class="proj" style="background-image: url(img/growth_tracker.png)">
-					<h3>Growth Tracker</h3>
+				<div data-proj="datamine" class="proj" style="background-image: url(img/evoniklogo.png)">
+					<h3>MOC Matrix Generator</h3>
 				</div>
-				<div data-proj="minesweeper_b" class="proj" style="background-image: url(img/minesweeper.png)">
-					<h3>Minesweeper Royale<br>(backend)</h3>
+				<div data-proj="minesweeper_b" class="proj" style="background-image: url(img/dsprogress.png)">
+					<h3>Under Construction</h3>
+				</div>
+			</div>
+		</div>
+		<div id="htmlcss" class="lang-panel">
+			<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML/CSS/JS/OTHERS</a></h2>
+			<h3 class="lang-desc">I first started programming in  <span>highschool</span>, and got my start with web develpoment
+				in <span>college</span> through various classes and research projects. I've worked with <i>various</i>
+				stacks and frameworks such as <span>React</span> and <span>Bootstrap</span> becoming more proficient with each project. 
+				<span>Click around below to learn about what I have worked on.</span>
+			</h3>
+			<div class="projects htmlcss" data-cat="htmlcss">
+				<div data-proj="red_book" class="proj" style="background-image: url(img/RedBook.png)">
+					<h3>Red Book</h3>
+				</div>
+				<div data-proj="portfolio" class="proj" style="background-image: url(img/logo.png)">
+					<h3>Portfolio</h3>
+				</div>
+				<div data-proj="react" class="proj" style="background-image: url(img/React.png)">
+					<h3>Amazona</h3>
 				</div>
 			</div>
 		</div>
 		<div id="flutter" class="lang-panel">
 			<h2><a href="https://flutter.dev/" target="_blank">Flutter</a></h2>
 			<h3 class="lang-desc">Flutter, Google's framework for creating cross-platform (<span>iOS</span> and
-				<span>Android</span>) <span>mobile apps</span>, is my favorite language to work in. I've created 2
-				public and a few private apps over the <span>9 months</span> I've used it. I'm still learning new things
-				about it, but I'm <span>intermediate</span> overall.
+				<span>Android</span>) <span>mobile apps</span>, is a language that I am taking as my new venture. 
+				I'm currently working on a few practice projects to learn before I start on public work. 
 			</h3>
 			<div class="projects flutter" data-cat="flutter">
-				<div data-proj="dunabase" class="proj" style="background-image: url(img/dunabase.png)">
-					<h3>Dunabase</h3>
+				<div data-proj="dunabase" class="proj" style="background-image: url(img/progress.png)">
+					<h3>---</h3>
 				</div>
-				<div data-proj="source_mobile" class="proj" style="background-image: url(img/source.png)">
-					<h3>Source Mobile</h3>
+				<div data-proj="source_mobile" class="proj" style="background-image: url(img/progress.png)">
+					<h3>---</h3>
 				</div>
-				<div data-proj="repertoire" class="proj" style="background-image: url(img/repertoire.png)">
-					<h3>Repertoire</h3>
-				</div>
-			</div>
-		</div>
-		<div id="htmlcss" class="lang-panel">
-			<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML/CSS/JS</a></h2>
-			<h3 class="lang-desc">My first venture into programming, when I was <span>9 years old</span>, was an
-				incredibly awful website that was entirely HTML and a few inline styles. I've gotten just a <i>bit</i>
-				better since then &ndash; I'm still learning design principles,
-				but I'm <span>proficient</span> at this stack.
-			</h3>
-			<div class="projects htmlcss" data-cat="htmlcss">
-				<div data-proj="makemehappy" class="proj" style="background-image: url(img/happy.png)">
-					<h3>MakeMeHappy</h3>
-				</div>
-				<div data-proj="portfolio" class="proj" style="background-image: url(img/Website.png)">
-					<h3>Portfolio</h3>
-				</div>
-				<div data-proj="minesweeper_f" class="proj" style="background-image: url(img/minesweeper.png)">
-					<h3>Minesweeper Royale<br>(frontend)</h3>
+				<div data-proj="repertoire" class="proj" style="background-image: url(img/progress.png)">
+					<h3>---</h3>
 				</div>
 			</div>
 		</div>
 		<div id="others" class="lang-panel">
 			<h2>Other skills</h2>
-			<h3 class="lang-desc">I've also worked in <span>Java</span>, <span>C++</span>, <span>C#</span> (although
-				since switching to Linux I haven't gotten much chance to use it), and a bit of <span>Python</span>.</h3>
+			<h3 class="lang-desc">I've also worked in <span>Java</span>, <span>Python</span>, and <span>C#</span> throughout school
+				for various work and projects. I have a bit of experience in various other languages and stacks.</h3>
 			<div class="projects others" data-cat="others">
-				<div data-proj="antislouch" class="proj" style="background-image: url(img/slouch.png)">
-					<h3>AntiSlouch</h3>
+				<div data-proj="java" class="proj" style="background-image: url(img/javalogo.png)">
+					<h3>Popular Names</h3>
 				</div>
-				<div data-proj="reqlang" class="proj" style="background-image: url(img/WIP.png)">
-					<h3>ReqLang</h3>
+				<div data-proj="vr" class="proj" style="background-image: url(img/evl.png)">
+					<h3>EduVenture</h3>
 				</div>
-				<div data-proj="ognes" class="proj" style="background-image: url(img/ognes.png)">
-					<h3>OGNes</h3>
+				<div data-proj="python" class="proj" style="background-image: url(img/msjr.png)">
+					<h3>Minesweeper JR</h3>
 				</div>
 			</div>
 		</div>

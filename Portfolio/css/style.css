@@ -3,9 +3,12 @@
 }
 
 body {
-	margin: 0;
 	background: black;
 	overflow: hidden;
+}
+
+p {
+	text-align: center;
 }
 
 h1 {
@@ -110,7 +113,7 @@ a.d {
 	margin: 10px auto;
 }
 
-#nodejs>.lang-desc>span {
+#datascience>.lang-desc>span {
 	color: #90c53f;
 }
 
@@ -220,12 +223,12 @@ canvas {
 	transition: border-color 0s ease-out 0.25s, width 0.125s ease-out 0.25s, height 0.125s ease-out 0.325s, border-radius .5s ease-out 0.5s;
 }
 
-.projects.node>.proj.loaded::before {
+.projects.datascience>.proj.loaded::before {
 	border-top-color: #90c53f;
 	border-right-color: #90c53f;
 }
 
-.projects.node>.proj.loaded::after {
+.projects.datascience>.proj.loaded::after {
 	border-bottom-color: #90c53f;
 	border-left-color: #90c53f;
 }
@@ -260,7 +263,7 @@ canvas {
 	border-left-color: #ffdd48;
 }
 
-.projects.node>.proj {
+.projects.datascience>.proj {
 	border-color: #90c53f;
 }
 
@@ -283,7 +286,7 @@ canvas {
 	overflow: hidden;
 	box-shadow: 0 0 100px 10px black inset;
 }
-#modal.nodejs, #modal.nodejs>.close {
+#modal.ds, #modal.ds>.close {
 	border-color: #90c53f;
 }
 

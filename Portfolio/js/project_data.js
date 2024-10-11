@@ -1,62 +1,62 @@
 const ProjectData = {
-	"growth_tracker": {
-		title: "Growth Tracker",
-		github: "https://github.com/ottomated/growth-tracker",
-		description: "Growth Tracker is a <a href=\"https://discordapp.com/\">Discord</a> bot that's currently used by over 2,000 servers and 1,000,000 total people. It tracks how many people are in each server over time and can generate and display graphs of this growth. This was the first project that I made that became widely used, and I'm still maintaining it alone today."
+	"r_projects": {
+		title: "R Data Projects",
+		github: "https://github.com/braxton203/RProjects/tree/main",
+		description: "For the <a href=\"https://datamine.purdue.edu/\" target=\"_blank\">Purdue Data Mine</a> I completed several projects to gain hands-on experience with computational tools for representing, extracting, manipulating, interpreting, transforming, and visualizing data, especially big data sets, and in effectively communicating insights about data. All of these projects were done in R which is a powerful language for dealing with data. Click the logo to view the project files below."
 	},
-	"dickens": {
-		title: "Dickens Carolers",
-		github: "",
-		description: "This is a private project I did under contract from the <a href=\"http://www.dickenscarolers.com/\">Dickens Carolers</a>, a Seattle singing group. It involved interfacing with a Google spreadsheet and managing scheduling for dozens of people."
+	"datamine": {
+		title: "Purdue Data Mine",
+		github: "https://github.com/braxton203/PurdueWebScraping",
+		description: "As a part of the <a href=\"https://datamine.purdue.edu/\" target=\"_blank\">Purdue Data Mine</a> I worked with <a href=\"https://www.evonik.com/en/company.html#:~:text=Evonik%20is%20one%20of%20the,precisely%20what%20make%20the%20difference.\" target=\"_blank\">Evonik Industries</a> a specialty chemicals company. My team worked with Evonik Engineers to develop a dynamic application that generates Materials of Construction Matrices to determine compatibility using corrosion rates, temperatures, and concentrations. For this project I used many data science skills along with development. The programs used in the project are linked below."
 	},
 	"minesweeper_b": {
-		title: "Minesweeper Royale (backend)",
-		github: "https://github.com/WilliamDann/minesweeper-royale",
-		description: "During CodeDay Spring 2019, a 24-hour hackathon, I created the Express backend for an online battle royale version of minesweeper, using websockets to communicate."
+		title: "Top Secret",
+		github: "https://github.com/braxton203",
+		description: "Project still under construction come back later!"
 	},
-	"dunabase": {
-		title: "Dunabase",
-		github: "https://github.com/ottomated/dunabase",
-		description: "My first venture into Flutter. This app connects with a Google spreadsheet and uses an algorithm to enumerate the songs that can be sung by a subset of a singing group (in which each person only knows a certain set of songs)"
-	},
-	"source_mobile": {
-		title: "Source Mobile",
-		github: "https://github.com/ottomated/source-mobile",
-		description: "An app that allows students of Seattle Public Schools to check their grades on their mobile device. Published on the Apple Store and Play Store with over 3,000 downloads and great feedback! I also created a splash website from scratch for this project <a href=\"https://ottomated.net/source\">here</a>."
-	},
-	"repertoire": {
-		title: "Repertoire",
-		github: "https://github.com/ottomated/repertoire",
-		description: "I made this app for my dance group to ease the sharing of costumes and dance data. This is the first project where I actively pursued usability testing and I plan to publish it once it's polished."
-	},
-	"makemehappy": {
-		title: "Make Me Happy",
-		github: "https://github.com/WilliamDann/hack2018/tree/master/CodeDay/static",
-		description: "An app made in 24 hours for CodeDay Fall 2018. I worked on the frontend and used this project to learn about how to use git properly."
+	"red_book": {
+		title: "Red Book (PHP/MySQL)",
+		github: "https://github.com/braxton203/ClientServerProject/tree/main/BlueBookClone",
+		description: "A website clone of Kelley Blue Book I made in the MAMP stack for a client/server development class in 2023. This was my first website with poor aesthetic choices where I learned frontend, backend, and database creation and management. For this project I learned and used PHP/MySQL. Click the logo to view the project files below."
 	},
 	"portfolio": {
-		title: "Portfolio",
-		github: "https://github.com/ottomated/portfolio",
-		description: "You're looking at it! This website was a lot of work and I'm really proud of some of the results I got, such as the svg animations and the overall aesthetic."
+		title: "Portfolio (HTML/JS/CSS)",
+		github: "https://github.com/braxton203/Portfolio/tree/main/Portfolio",
+		description: "This is the project your looking at on your screen right now! For this I used HTML/JS/CSS. This project felt like a good way to show off my portfolio through my own creation. Click the logo to view the project files below."
 	},
-	"minesweeper_f": {
-		title: "Minesweeper Royale (frontend)",
-		github: "https://github.com/WilliamDann/minesweeper-royale/tree/master/public",
-		description: "Along with the Express backend for this 24-hour project, I created the HTML/CSS/JS frontend! I think it turned out really well for the limited time, and matched the original theme accurately.",
+	"react": {
+		title: "Amazona (Node.js/React)",
+		github: "https://github.com/benearl1/Node-And-React-Application-Final/tree/main/amazona",
+		description: "An Amazon shopping page created using node.js/React frameworks. I created this project to learn the basics of website development and to learn different applications outside just the normal HTML/CSS/JS. Click the logo to view the project files below.",
 	},
-	"antislouch": {
-		title: "AntiSlouch",
-		github: "https://github.com/ottomated/AntiSlouch",
-		description: "Made in 24 hours at CodeDay Spring 2018, this app uses face tracking in OpenCV to detect whether or not you're slouching at your computer. Made in Python.",
+	"dunabase": {
+		title: "---",
+		github: "https://github.com/braxton203",
+		description: ""
 	},
-	"reqlang": {
-		title: "ReqLang",
-		github: "https://github.com/ottomated/reqlang",
-		description: "How I got to know C++. The eventual goal of this project is to create an interpreter for a custom language based around scripting HTTP requests, but I can't devote much time to it and it's nowhere near complete.",
+	"source_mobile": {
+		title: "---",
+		github: "https://github.com/braxton203",
+		description: ""
 	},
-	"ognes": {
-		title: "OGNes",
-		github: "https://github.com/ottomated/OGNes",
-		description: "An NES emulator written in Java for a school project. It's compatible with most common games, although definitely not perfect.",
+	"repertoire": {
+		title: "---",
+		github: "https://github.com/braxton203",
+		description: ""
+	},
+	"java": {
+		title: "Popular Names",
+		github: "https://github.com/braxton203/PopularNames/tree/main",
+		description: "Several programs created for an honors project that uses efficient searching and sorting algorithms to scan 10 files containing a total of 100,000 names to either rank names based on popularity or search for them based on user input. This project was done in Java.",
+	},
+	"vr": {
+		title: "EduVenture",
+		github: "",
+		description: "This is a private project I did under my professor that involved designing and developing educational VR games in Unity. These games were distrbuted to local schools to provide an interactive learning experience.",
+	},
+	"python": {
+		title: "Minesweeper JR",
+		github: "https://github.com/braxton203/minesweeperjr",
+		description: "A project I created during codeday to become familiar with Python syntax and features with plans to eventually create a better and more complex version.",
 	},
 };
