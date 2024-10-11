@@ -42,6 +42,9 @@ let update = () => {
         setTimeout(update, step.ms / stepDenominator);
     else {
         header.classList.add('top');
+
+        updateText();
+
         setTimeout(() => {
             document.getElementById('main').style.opacity = 1;
             initGlobe();
