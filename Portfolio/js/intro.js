@@ -1,20 +1,20 @@
 let header = document.querySelector('#intro');
 let anim = [
-    { t: "{ }", ms: 300 },
-    { t: "{_}", ms: 300 },
-    { t: "{ }", ms: 300 },
-    { t: "{_}", ms: 300 },
+    { t: "{ }", ms: 200 },
+    { t: "{_}", ms: 200 },
+    { t: "{ }", ms: 200 },
+    { t: "{_}", ms: 200 },
     { t: "{B_}", ms: 100 },
     { t: "{BR_}", ms: 100 },
     { t: "{BRA_}", ms: 100 },
     { t: "{BRAX_}", ms: 100 },
     { t: "{BRAXT_}", ms: 100 },
     { t: "{BRAXTO_}", ms: 100 },
-    { t: "{BRAXTON_}", ms: 300 },
-    { t: "{BRAXTON }", ms: 300 },
-    { t: "{BRAXTON_}", ms: 300 },
-    { t: "{BRAXTON }", ms: 300 },
-    { t: "{BRAXTON_}", ms: 300 },
+    { t: "{BRAXTON_}", ms: 200 },
+    { t: "{BRAXTON }", ms: 200 },
+    { t: "{BRAXTON_}", ms: 200 },
+    { t: "{BRAXTON }", ms: 200 },
+    { t: "{BRAXTON_}", ms: 200 },
     { t: "{BRAXTON _}", ms: 100 },
     { t: "{BRAXTON C_}", ms: 100 },
     { t: "{BRAXTON CO_}", ms: 100 },
@@ -22,10 +22,10 @@ let anim = [
     { t: "{BRAXTON CONL_}", ms: 100 },
     { t: "{BRAXTON CONLE_}", ms: 100 },
     { t: "{BRAXTON CONLEY_}", ms: 100 },
-    { t: "{BRAXTON CONLEY }", ms: 300 },
-    { t: "{BRAXTON CONLEY_}", ms: 300 },
-    { t: "{BRAXTON CONLEY }", ms: 300 },
-    { t: "{BRAXTON CONLEY_}", ms: 300 },
+    { t: "{BRAXTON CONLEY }", ms: 200 },
+    { t: "{BRAXTON CONLEY_}", ms: 200 },
+    { t: "{BRAXTON CONLEY }", ms: 200 },
+    { t: "{BRAXTON CONLEY_}", ms: 200 },
     { t: "{BRAXTON CONLEY}", ms: 200 },
     { t: "{BRAXTON CONLEY}", ms: 200 }
 ];
@@ -42,6 +42,9 @@ let update = () => {
         setTimeout(update, step.ms / stepDenominator);
     else {
         header.classList.add('top');
+
+        updateText();
+
         setTimeout(() => {
             document.getElementById('main').style.opacity = 1;
             initGlobe();
