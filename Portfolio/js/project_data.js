@@ -12,7 +12,7 @@ const ProjectData = {
 	"minesweeper_b": {
 		title: "Top Secret",
 		github: "https://github.com/braxton203",
-		description: "Project still under construction come back later!"
+		description: "Project still in development come back later!"
 	},
 	"red_book": {
 		title: "Red Book (PHP/MySQL)",
