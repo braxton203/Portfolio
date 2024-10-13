@@ -22,7 +22,7 @@ const ProjectData = {
 	"portfolio": {
 		title: "Portfolio (HTML/JS/CSS)",
 		github: "https://github.com/braxton203/Portfolio/tree/main/Portfolio",
-		description: "This is the project your looking at on your screen right now! For this I used HTML/JS/CSS. This project felt like a good way to show off my portfolio through my own creation. Click the logo to view the project files below."
+		description: "This is the project your looking at on your screen right now! For this I used HTML/JS/CSS. I created this project as a 24 hour challenge for showing off my portfolio and periodically update the content in it. Click the logo to view the project files below."
 	},
 	"react": {
 		title: "Amazona (Node.js/React)",
